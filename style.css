@@ -13,6 +13,10 @@ html, body{
     width: 100%;
 }
 
+@font-face {
+    font-family: KajiroB;
+    src: url(assets/KajiroBold.ttf);
+}
 
 .main{
     width: 100%;
@@ -98,29 +102,28 @@ html, body{
 
 .elem h1{
     position: absolute;
-    top:100;
-    left:0;
-    line-height: .9;
+    top: 100%;
+    left: 0;
     font-family: "Kajiro";
-    color:#fff;
-    font-weight: 100;
     font-size: 11vw;
-
-    
+    font-weight: 100;
+    line-height: 1;
 }
 .elem h1:nth-child(1){
     top: 0;
 }
 
 .hero-left button{
+    padding: 0.5vw 2.7vw;
+    font-family:"Legibility";
+    font-size: 2vw;
+    letter-spacing: 5px;
+    color: black;
+    margin-top: 1vw;
     pointer-events: all;
-    padding: .8vw 1vw;
-    font-size: 3vw;
-    margin-top: 2vw;
-    font-family: "legibility";
-    border-radius: 14px;
-    background-color: #fff;
-    color:gray
+    border: 1px solid black;
+    border-radius:14px;
+    color:lightcoral
 }
 
 .hero-right{
@@ -149,3 +152,4 @@ html, body{
     background-size: cover;
     background-position: center;
 }
+    
